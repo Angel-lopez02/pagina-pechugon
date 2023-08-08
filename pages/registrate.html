@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pechugon</title>
+    <link rel="shortcut icon" href="./assets/img/LOGO.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0">
+            <div class="container-fluid contenedor-nav">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" alt=""></a>
+                <div class="contenedor-buscador d-flex justify-content-center">
+                    <form class="d-flex form-buscador" role="search">
+                        <input class="form-control search-buscador" type="search" placeholder="Busca tu Producto"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success submit-buscador" type="submit"><img
+                                src="../assets/img/lupa-header.png" alt=""></button>
+                    </form>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-mio" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ingresa.html">Ingresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Registrate</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Almacen <img src="../assets/img/almacen.png"
+                                            alt=""></a></li>
+                                <li><a class="dropdown-item" href="#">Granja <img src="../assets/img/pollo.png"
+                                            alt=""></a></li>
+                                <li><a class="dropdown-item" href="#">Pastas <img src="../assets/img/pastas.png"
+                                            alt=""></a></li>
+                                <li><a class="dropdown-item" href="#">Limpieza <img src="../assets/img/limpieza.png"
+                                            alt=""></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html"><img src="../assets/img/carrito.png" alt=""></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-form">
+        <section class="section-form">
+            <div class="contenedor-form">
+                <div class="logo-form"><img src="../assets/img/LOGO.png" alt=""></div>
+                <h1 class="h1-form">Registrate</h1>
+                <form class="form-ingresa-registrate" action="">
+                    <div class="nombre">
+                        <h2 class="h2-form">Nombre</h2>
+                        <input class="input-form" required type="text">
+                    </div>
+                    <div class="apellido">
+                        <h2 class="h2-form">Apellido</h2>
+                        <input class="input-form" required type="text">
+                    </div>
+                    <div class="email">
+                        <h2 class="h2-form">Email</h2>
+                        <input class="input-form" required type="email">
+                    </div>
+                    <div class="contraseña">
+                        <h2 class="h2-form">Contraseña</h2>
+                        <input class="input-form" required type="password">
+                    </div>
+                    <div class="submit-ing">
+                        <input class="boton-ingresa" type="submit" value="Ingresa">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="logo-footer">
+                <img src="../assets/img/logofooter.png" alt="logo">
+            </div>
+            <p class="num-telefono mb-0">1162780256</p>
+            <ul class="ul-redes">
+                <li><a target="_blank" href="https://www.instagram.com/"><img src="../assets/img/Instagram.png"
+                            alt="instagram" class="img-redes-footer"></a></li>
+                <li><a target="_blank" href="https://facebook.com/"><img src="../assets/img/facebook.png" alt="facebook"
+                            class="img-redes-footer"></a>
+                </li>
+                <li><a target="_blank" href="https://www.google.com/intl/es-419/gmail/about/"><img
+                            src="../assets/img/email.png" alt="email" class="img-redes-footer"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

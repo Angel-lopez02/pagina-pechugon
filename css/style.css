@@ -75,12 +75,19 @@ header {
 }
 
 .dropdown-item:hover {
-    color: #CF0A0A;
+    color: #FFFFFF;
 }
-.dropdown-menu{
+
+.dropdown-menu li a:hover {
+    color: black;
+    font-size: 15px;
+}
+
+.dropdown-menu {
     background-color: #CF0A0A;
     border: none;
 }
+
 .dropdown-menu li a {
     color: black;
 }
@@ -235,11 +242,181 @@ footer {
     width: 5rem;
     height: 4.6875rem;
 }
-.ul-redes{
+
+.ul-redes {
     margin: 0;
     padding: 0;
 }
 
+/* ---------------------ingresa.html--------------------- */
+
+.main-form {
+    padding-top: 6.25rem;
+}
+
+.section-form {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-form {
+    width: 50.75rem;
+    height: 41.375rem;
+    background-color: #FFFFFF;
+    border-radius: 2.5rem;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.438);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-form {
+    font-size: 40px;
+    color: #CF0A0A;
+}
+
+.form-ingresa-registrate {
+    display: flex;
+    flex-direction: column;
+    width: 31.375rem;
+    gap: 1.875rem;
+}
+
+.h2-form {
+    font-size: 1.25rem;
+    color: #D9D9D9;
+}
+
+.input-form {
+    width: 31.25rem;
+    background-color: #D9D9D9;
+    height: 1.75rem;
+    border-color: #D9D9D9;
+}
+
+.submit-ing {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-ingresa {
+    width: 170px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #CF0A0A;
+}
+
+/* ---------------------carrito.html--------------------- */
+.bolsa-compras {
+    width: 40.625rem;
+    height: 33.75rem;
+    background-color: #FFFFFF;
+    border-radius: 2.5rem;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.438);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont-img-bolsa {
+    margin-top: 1.25rem;
+}
+
+.img-bolsa {
+    width: 5.625rem;
+    height: 5.625rem;
+}
+
+.cont-empeza-bolsa {
+    font-size: 1.875rem;
+}
+
+.carrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1.25rem;
+    height: 80%;
+}
+
+.resumen-compra {
+    width: 20.8125rem;
+    height: 33.75rem;
+    background-color: #FFFFFF;
+    border-radius: 2.5rem;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.438);
+}
+
+.text-resumen {
+    margin-top: 20px;
+    text-align: center;
+}
+/* ---------------------producto.html--------------------- */
+.producto-final {
+    height: 50%;
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-producto-final {
+    width: 28.125rem;
+    height: 28.125rem;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.438);
+}
+
+.info-producto {
+    display: flex;
+    flex-direction: column;
+    width: 24.375rem;
+    height: 28.125rem;
+    background-color: #FFFFFF;
+    color: #CF0A0A;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.438);
+    gap: 30px;
+    padding: 1.25rem;
+}
+.name-producto-final{
+    font-size: 25px;
+}
+.precio-final{
+    font-size: 20px;
+}
+
+.boton-agregar {
+    width: 9.875rem;
+    height: 2.0625rem;
+    color: #FFFFFF;
+    background-color: #CF0A0A;
+    border-color: #CF0A0A;
+}
+
+.cont-encontranos {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.ancla-encontranos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+.ancla-encontranos h3 {
+    font-size: 20px;
+    color: #CF0A0A;
+}
 @media (max-width: 1180px) {
 
     .navbar>.container,
@@ -261,6 +438,18 @@ footer {
     .search-buscador {
         width: 100%;
     }
+}
+@media (max-width: 1024px){
+    .contenedor-form{
+        width: 46.75rem;
+    }
+    .bolsa-compras {
+        width: 500px;
+    }
+    .resumen-compra{
+        width: 13.75rem;
+    }
+
 }
 
 @media (max-width: 880px) {
@@ -299,6 +488,61 @@ footer {
 
     .search-buscador {
         font-size: 13px;
+    }
+    .contenedor-card-productos {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+
+    .section-cat-destacadas {
+        width: 85%;
+    }
+
+    .cont-cat-destacadas {
+        width: 100%;
+    }
+
+    .bolsa-compras {
+        width: 28.125rem;
+    }
+
+    .resumen-compra {
+        display: none;
+    }
+
+    .cont-empeza-bolsa {
+        font-size: 20px;
+    }
+
+    .producto-final {
+        display: flex;
+        flex-direction: column;
+        gap: .4375rem;
+    }
+
+    .img-producto-final {
+        width: 24.375rem;
+    }
+
+    .contenedor-form {
+        width: 27.625rem;
+    }
+    .contenedor-form-ingresa{
+        height: 31.25rem;
+    }
+    .form-ingresa-registrate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .input-form {
+        width: 16.25rem;
+    }
+
+    .h1-form {
+        font-size: 1.875rem;
     }
 }
 
@@ -342,7 +586,20 @@ footer {
     .section-nosotros {
         width: 17.0506rem;
     }
-    .dropdown-menu li a{
+
+    .dropdown-menu li a {
         font-size: 9px;
     }
+    .bolsa-compras {
+        width: 300px;
+    }
+
+    .cont-empeza-bolsa {
+        font-size: 17px;
+
+    }
+    .contenedor-form{
+        width: 18.625rem;
+    }
+
 }
