@@ -620,5 +620,17 @@ footer {
     .contenedor-form{
         width: 18.625rem;
     }
+    .img-producto-final{
+        width: 18.4375rem;
+    }
+    .info-producto{
+        width: 18.4375rem;
+    }
+    .name-producto-final {
+        font-size: 22px;
+    }
+    .ancla-encontranos h3 {
+        font-size: 22px;
 
+    }
 }
