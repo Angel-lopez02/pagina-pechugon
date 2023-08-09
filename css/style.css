@@ -590,20 +590,20 @@ footer {
     }
 
     .producto img {
-        width: 100px;
+        width: 8.4375rem;
     }
 
     .producto h3 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .producto button {
-        font-size: 7px;
+        font-size: 10px;
         padding: 5px;
     }
 
     .section-nosotros {
-        width: 17.0506rem;
+        width: 19.625rem;
     }
 
     .dropdown-menu li a {
