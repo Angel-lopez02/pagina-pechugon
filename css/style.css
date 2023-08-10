@@ -467,6 +467,18 @@ footer {
     .nav-link-home{
         display: flex;
     }
+    .navbar-mio{
+        position: absolute;
+        background-color: #cf0a0af0;
+        right: auto;
+        top: 90%;
+        padding: 1.25rem;
+        border-radius: 9px;
+    }
+    .navbar-toggler{
+        border: none;
+        border-color: white;
+    }
 }
 
 @media (max-width: 880px) {
