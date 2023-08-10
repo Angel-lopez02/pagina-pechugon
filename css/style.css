@@ -252,6 +252,9 @@ footer {
     margin: 0;
     padding: 0;
 }
+.br-copy{
+    display: none;
+}
 
 /* ---------------------ingresa.html--------------------- */
 
@@ -634,7 +637,7 @@ footer {
         font-size: 22px;
 
     }
-    .copyright{
-        width: 13.6875rem;
+    .br-copy{
+        display: flex;
     }
 }
