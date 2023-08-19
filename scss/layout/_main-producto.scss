@@ -1,0 +1,42 @@
+.producto-final {
+    @include flex(row, center, center, 1.25rem);
+    height: 50%;
+    .img-producto-final {
+        @include sizes(28.125rem, 28.125rem);
+        background-color: $color-background-section;
+        @include flex(none, center, center, none);
+        box-shadow: $box-shadows;
+    }
+    .info-producto {
+        @include flex(column, none, none, 1.875rem);
+        @include sizes(24.375rem, 28.125rem);
+        background-color: $color-background-section;
+        color: $color-tipografias-rojas;
+        box-shadow: $box-shadows;
+        padding: 1.25rem;
+        .name-producto-final {
+            font-size: 25px;
+        }
+        .precio-final {
+            font-size: 20px;
+        }
+        .boton-agregar {
+            @include sizes(9.875rem, 2.0625rem);
+            color: #FFFFFF;
+            background-color: $color-button;
+            border-color: $color-button;
+        }
+        .cont-encontranos {
+            display: flex;
+            gap: 2.5rem;
+            .ancla-encontranos {
+                @include flex(column, center, center, none);
+                text-decoration: none;
+                h3 {
+                    font-size: 20px;
+                    color: $color-tipografias-rojas;
+                }
+            }
+        }
+    }
+}

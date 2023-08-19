@@ -1,0 +1,101 @@
+main {
+    @include flex(column, center, center, 1.25rem);
+    font-family: black-italic;
+    gap: 1.25rem;
+    background-color: $color-background-main;
+    padding-bottom: 6.25rem;
+
+    .section-pagos {
+        display: flex;
+        justify-content: space-between;
+        @include sizes(52.5rem, 5.625rem);
+        background-color: $color-background-section;
+        box-shadow: $box-shadows;
+        padding: 1.25rem;
+
+        .pagos {
+            @include flex(row, center, center, .625rem);
+            color: $color-tipografias-rojas;
+
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .section-productos {
+        .contenedor-cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            .producto {
+                @include flex(column, none, none, .4375rem);
+                background-color: $color-background-section;
+                padding: 10px;
+                border: #D9D9D9 1px solid;
+
+                a {
+                    text-decoration: none;
+                    color: initial;
+                }
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                img {
+                    display: flex;
+                    justify-self: center;
+                    align-self: center;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: $color-tipografias-rojas;
+                }
+
+                button {
+                    padding: .5rem .75rem;
+                    color: #FFFFFF;
+                    background-color: $color-button;
+                    font-family: black-italic;
+                    border-radius: .3125rem;
+                }
+
+            }
+        }
+    }
+    .section-nosotros {
+        @include flex(column, center, center, none);
+        width: 53.125rem;
+        h2{
+            display: flex;
+            align-self: flex-start;
+        }
+        .album-imagenes {
+            display: grid;
+            @include sizes(100%, 100%);
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            background-color: $color-background-section;
+            box-shadow: $box-shadows;
+            padding: 20px;
+            border-radius: 10px;
+            .item-galeria{
+                .imagen-galeria {
+                    @include sizes(100%, 100%);
+                    object-fit: cover;
+                }
+            }
+            .item-galeria:nth-child(4) {
+                grid-row: 2/4;
+                grid-column: 2;
+            }
+            .item-galeria:nth-child(3) {
+                grid-row: 1/2;
+                grid-column: 2;
+            }
+        }
+    }
+
+}

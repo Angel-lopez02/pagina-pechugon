@@ -1,0 +1,45 @@
+.main-form {
+    padding-top: 6.25rem;
+    .section-form {
+        @include flex(none, center, center, none);
+        @include sizes(100%, 60%);
+        .contenedor-form {
+            @include flex(column, center, center, none);
+            @include sizes(50.75rem, 41.375rem);
+            background-color: $color-background-section;
+            border-radius: 2.5rem;
+            box-shadow: $box-shadows;
+            .h1-form {
+                font-size: 40px;
+                color: $color-tipografias-rojas;
+            }
+            .form-ingresa-registrate {
+                display: flex;
+                flex-direction: column;
+                width: 31.375rem;
+                gap: 1.875rem;
+                div{
+                    .h2-form {
+                        font-size: 1.25rem;
+                        color: #D9D9D9;
+                    }
+                    .input-form {
+                        @include sizes(31.25rem, 1.75rem);
+                        background-color: #D9D9D9;
+                        border-color: #D9D9D9;
+                    }
+                }
+                .submit-ing {
+                    display: flex;
+                    justify-content: center;
+                    .boton-ingresa {
+                        @include sizes(10.625rem, 1.875rem);
+                        color: #FFFFFF;
+                        background-color: #CF0A0A;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

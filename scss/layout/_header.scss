@@ -1,0 +1,86 @@
+header {
+    font-family: black-italic;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    nav {
+        .contenedor-nav {
+            background-color: $color-background-header;
+            display: flex;
+            flex-wrap: nowrap;
+
+            .navbar-brand {
+                margin: 0;
+            }
+
+            .contenedor-buscador {
+                width: 80%;
+
+                .form-buscador {
+                    background-color: white;
+
+                    .search-buscador {
+                        width: 37.5rem;
+                        height: 2.5rem;
+                        border: none;
+                    }
+
+                    .submit-buscador {
+                        border-color: white;
+                        border-radius: 0%;
+                    }
+
+                    .submit-buscador:hover {
+                        background-color: #CF0A0A;
+                        border-color: white;
+                    }
+                }
+            }
+
+            .navbar-mio {
+                @include flex(row, end, none, none);
+
+                ul {
+                    .nav-item {
+                        .nav-link-home {
+                            display: none;
+                        }
+
+                        a {
+                            color: white;
+                            font-size: 15px;
+                        }
+
+                        a:hover {
+                            color: black;
+                        }
+
+                        .dropdown-menu {
+                            background-color: $color-background-header;
+                            border: none;
+
+                            li {
+                                .dropdown-item {
+                                    color: black;
+                                }
+
+                                .dropdown-item:hover {
+                                    color: white;
+                                    background-color: $color-background-header;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .logo-carrito img:hover {
+                transform: scale(1.1);
+            }
+
+        }
+
+    }
+}

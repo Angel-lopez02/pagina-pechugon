@@ -56,7 +56,8 @@ header {
     background-color: #CF0A0A;
     border-color: white;
 }
-.nav-link-home{
+
+.nav-link-home {
     display: none;
 }
 
@@ -69,18 +70,9 @@ header {
     transform: scale(1.1);
 }
 
-.nav-item a:hover {
-    font-size: 20px;
-}
-
 .logo-carrito img:hover {
     transform: scale(1.1);
 }
-
-.dropdown-item:hover {
-    color: #FFFFFF;
-}
-
 .dropdown-menu li a:hover {
     color: black;
     font-size: 15px;
@@ -201,10 +193,6 @@ main {
     height: 100%;
     object-fit: cover;
 }
-.item-galeria:active img{
-    transform: scale(1.5);
-}
-
 .item-galeria:nth-child(4) {
     grid-row: 2/4;
     grid-column: 2;
@@ -252,7 +240,8 @@ footer {
     margin: 0;
     padding: 0;
 }
-.br-copy{
+
+.br-copy {
     display: none;
 }
 
@@ -331,10 +320,6 @@ footer {
     gap: 20px;
 }
 
-.cont-img-bolsa {
-    margin-top: 1.25rem;
-}
-
 .img-bolsa {
     width: 5.625rem;
     height: 5.625rem;
@@ -365,6 +350,7 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+
 /* ---------------------producto.html--------------------- */
 .producto-final {
     height: 50%;
@@ -395,10 +381,12 @@ footer {
     gap: 30px;
     padding: 1.25rem;
 }
-.name-producto-final{
+
+.name-producto-final {
     font-size: 25px;
 }
-.precio-final{
+
+.precio-final {
     font-size: 20px;
 }
 
@@ -421,10 +409,12 @@ footer {
     justify-content: center;
     text-decoration: none;
 }
+
 .ancla-encontranos h3 {
     font-size: 20px;
     color: #CF0A0A;
 }
+
 @media (max-width: 1180px) {
 
     .navbar>.container,
@@ -442,34 +432,42 @@ footer {
     .form-buscador {
         width: 100%;
     }
+
     .search-buscador {
         width: 100%;
     }
 }
-@media (max-width: 1024px){
-    .contenedor-form{
+
+@media (max-width: 1024px) {
+    .contenedor-form {
         width: 46.75rem;
     }
+
     .bolsa-compras {
         width: 500px;
     }
-    .resumen-compra{
+
+    .resumen-compra {
         width: 13.75rem;
     }
 
 }
-@media (max-width: 991px){
-    .navbar-brand{
+
+@media (max-width: 991px) {
+    .navbar-brand {
         display: none;
     }
-    .logo-carrito{
+
+    .logo-carrito {
         padding-top: .625rem;
         padding-bottom: .625rem;
     }
-    .nav-link-home{
+
+    .nav-link-home {
         display: flex;
     }
-    .navbar-mio{
+
+    .navbar-mio {
         position: absolute;
         background-color: #cf0a0af0;
         right: auto;
@@ -477,7 +475,8 @@ footer {
         padding: 1.25rem;
         border-radius: 9px;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         border: none;
         border-color: white;
     }
@@ -516,6 +515,7 @@ footer {
     .search-buscador {
         font-size: 13px;
     }
+
     .contenedor-card-productos {
         width: 70%;
         flex-wrap: wrap;
@@ -554,9 +554,11 @@ footer {
     .contenedor-form {
         width: 27.625rem;
     }
-    .contenedor-form-ingresa{
+
+    .contenedor-form-ingresa {
         height: 31.25rem;
     }
+
     .form-ingresa-registrate {
         display: flex;
         flex-direction: column;
@@ -613,6 +615,7 @@ footer {
     .dropdown-menu li a {
         font-size: 9px;
     }
+
     .bolsa-compras {
         width: 300px;
     }
@@ -621,23 +624,29 @@ footer {
         font-size: 17px;
 
     }
-    .contenedor-form{
+
+    .contenedor-form {
         width: 18.625rem;
     }
-    .img-producto-final{
+
+    .img-producto-final {
         width: 18.4375rem;
     }
-    .info-producto{
+
+    .info-producto {
         width: 18.4375rem;
     }
+
     .name-producto-final {
         font-size: 22px;
     }
+
     .ancla-encontranos h3 {
         font-size: 22px;
 
     }
-    .br-copy{
+
+    .br-copy {
         display: flex;
     }
 }

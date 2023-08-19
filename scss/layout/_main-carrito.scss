@@ -1,0 +1,36 @@
+.carrito {
+    @include flex(row, center, none, 1.25rem);
+    flex-wrap: nowrap;
+    height: 80%;
+
+    .bolsa-compras {
+        @include flex(column, none, center, centern 1.25rem);
+        @include sizes(40.625rem, 33.75rem);
+        background-color: $color-background-section;
+        border-radius: 2.5rem;
+        box-shadow: $box-shadows;
+        padding: 1.25rem;
+
+        .cont-img-bolsa {
+            .img-bolsa {
+                @include sizes(5.625rem, 5.625rem);
+            }
+        }
+
+        .cont-empeza-bolsa {
+            font-size: 1.875rem;
+        }
+    }
+}
+
+.resumen-compra {
+    @include sizes(20.8125rem, 33.75rem);
+    background-color: $color-background-section;
+    border-radius: 2.5rem;
+    box-shadow: $box-shadows;
+    padding: 1.25rem;
+
+    .text-resumen {
+        text-align: center;
+    }
+}
