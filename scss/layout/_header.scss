@@ -39,8 +39,6 @@ header {
             }
 
             .navbar-mio {
-                @include flex(row, end, none, none);
-
                 ul {
                     .nav-item {
                         .nav-link-home {
