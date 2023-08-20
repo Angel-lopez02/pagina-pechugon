@@ -1,0 +1,56 @@
+@media (max-width: 1180px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1.25rem;
+    }
+
+    header{
+        nav{
+            .contenedor-nav{
+                .contenedor-buscador{
+                    .form-buscador{
+                        width: 100%;
+                        .search-buscador {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-form{
+        .section-form{
+            .contenedor-form {
+                width: 46.75rem;
+            }
+        }
+
+    }
+    
+
+    .carrito{
+        .bolsa-compras{
+            width: 31.25rem;
+            .cont-empeza-bolsa{
+                font-size: 1.75rem;
+            }
+        }
+        .resumen-compra {
+            width: 13.75rem;
+        }
+    }
+
+    
+
+}

@@ -1,0 +1,55 @@
+@media (max-width:768px) {
+    header {
+        nav {
+            .contenedor-nav {
+                .contenedor-buscador {
+                    .form-buscador {
+                        .search-buscador {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carrito {
+        .bolsa-compras {
+            width: 28.125rem;
+
+            .cont-empeza-bolsa {
+                font-size: 20px;
+            }
+        }
+
+        .resumen-compra {
+            display: none;
+        }
+    }
+
+    .main-form {
+        .section-form {
+            .contenedor-form {
+                width: 27.625rem;
+                .h1-form {
+                    font-size: 1.875rem;
+                }
+                .form-ingresa-registrate {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    div{
+                        .input-form {
+                            width: 16.25rem;
+                        }
+                    }
+                }
+            }
+
+            .contenedor-form-ingresa {
+                height: 31.25rem;
+            }
+        }
+    }
+}

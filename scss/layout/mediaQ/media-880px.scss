@@ -1,0 +1,42 @@
+@media (max-width: 880px) {
+    main {
+        .section-productos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .contenedor-cards {
+                grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+            }
+        }
+
+        .section-pagos {
+            width: 26.5837rem;
+
+            .pagos {
+                h3 {
+                    width: 60px;
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .section-nosotros {
+            width: 26.5837rem;
+
+            h2 {
+                align-self: center;
+            }
+        }
+    }
+
+    .producto-final {
+        display: flex;
+        flex-direction: column;
+        gap: .4375rem;
+
+        .img-producto-final {
+            width: 24.375rem;
+        }
+    }
+    }
