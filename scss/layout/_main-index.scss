@@ -61,6 +61,9 @@ main {
                     font-family: black-italic;
                     border-radius: .3125rem;
                 }
+                button:hover {
+                    background-color:$color-button-hover;
+                }
 
             }
         }
