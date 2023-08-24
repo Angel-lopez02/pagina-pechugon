@@ -24,6 +24,8 @@ main {
     }
 
     .section-productos {
+        width: 53.1681rem;
+
         .contenedor-cards {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -61,20 +63,24 @@ main {
                     font-family: black-italic;
                     border-radius: .3125rem;
                 }
+
                 button:hover {
-                    background-color:$color-button-hover;
+                    background-color: $color-button-hover;
                 }
 
             }
         }
     }
+
     .section-nosotros {
         @include flex(column, center, center, none);
         width: 53.125rem;
-        h2{
+
+        h2 {
             display: flex;
             align-self: flex-start;
         }
+
         .album-imagenes {
             display: grid;
             @include sizes(100%, 100%);
@@ -84,20 +90,23 @@ main {
             box-shadow: $box-shadows;
             padding: 20px;
             border-radius: 10px;
-            .item-galeria{
+
+            .item-galeria {
                 .imagen-galeria {
                     @include sizes(100%, 100%);
                     object-fit: cover;
                 }
             }
+
             .item-galeria:nth-child(4) {
                 grid-row: 2/4;
                 grid-column: 2;
             }
+
             .item-galeria:nth-child(3) {
                 @extend .item-galeria:nth-child(4);
                 grid-row: 1/2;
-                
+
             }
         }
     }
