@@ -8,7 +8,7 @@ main {
     .section-pagos {
         display: flex;
         justify-content: space-between;
-        @include sizes(52.5rem, 5.625rem);
+        @include sizes(53.1681rem, 5.625rem);
         background-color: $color-background-section;
         box-shadow: $box-shadows;
         padding: 1.25rem;
