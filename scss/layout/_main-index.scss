@@ -106,9 +106,12 @@ main {
             .item-galeria:nth-child(3) {
                 @extend .item-galeria:nth-child(4);
                 grid-row: 1/2;
-
             }
         }
     }
 
+}
+.flecha-productos{
+    @include sizes (2.5rem, 2.5rem);
+    color: $color-tipografias-rojas;
 }
