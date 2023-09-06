@@ -76,12 +76,10 @@ main {
     .section-nosotros {
         @include flex(column, center, center, none);
         width: 53.125rem;
-
         h2 {
             display: flex;
             align-self: flex-start;
         }
-
         .album-imagenes {
             display: grid;
             @include sizes(100%, 100%);

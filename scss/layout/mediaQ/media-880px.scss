@@ -21,14 +21,21 @@
                 }
             }
         }
-        .section-encontranos{
+
+        .section-encontranos {
             width: 97%;
-            .img-encontranos{
+
+            .img-encontranos {
                 width: 100%
             }
         }
+
         .section-nosotros {
             width: 97%;
+
+            h2 {
+                align-self: center;
+            }
         }
     }
 
@@ -41,11 +48,12 @@
             width: 24.375rem;
         }
     }
-    .flecha-productos-prev{
+
+    .flecha-productos-prev {
         @include sizes (30px, 30px);
     }
-    .flecha-productos-next{
+
+    .flecha-productos-next {
         @include sizes (30px, 30px);
     }
-    }
-    
+}

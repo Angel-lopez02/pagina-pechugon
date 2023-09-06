@@ -381,6 +381,8 @@ footer {
       width: 100%; }
   main .section-nosotros {
     width: 97%; }
+    main .section-nosotros h2 {
+      align-self: center; }
   .producto-final {
     display: flex;
     flex-direction: column;
