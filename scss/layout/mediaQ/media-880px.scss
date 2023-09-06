@@ -40,4 +40,11 @@
             width: 24.375rem;
         }
     }
+    .flecha-productos-prev{
+        @include sizes (30px, 30px);
     }
+    .flecha-productos-next{
+        @include sizes (30px, 30px);
+    }
+    }
+    

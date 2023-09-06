@@ -113,7 +113,15 @@ main {
     }
 
 }
-.flecha-productos{
+.flecha-productos-prev{
+    position: absolute;
     @include sizes (2.5rem, 2.5rem);
     color: $color-tipografias-rojas;
+    left: 10px
+}
+.flecha-productos-next{
+    position: absolute;
+    @include sizes (2.5rem, 2.5rem);
+    color: $color-tipografias-rojas;
+    right: 10px;
 }

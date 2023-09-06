@@ -143,10 +143,19 @@ main {
       main .section-nosotros .album-imagenes .item-galeria:nth-child(3) {
         grid-row: 1/2; }
 
-.flecha-productos {
+.flecha-productos-prev {
+  position: absolute;
   width: 2.5rem;
   height: 2.5rem;
-  color: #CF0A0A; }
+  color: #CF0A0A;
+  left: 10px; }
+
+.flecha-productos-next {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #CF0A0A;
+  right: 10px; }
 
 footer {
   display: flex;
@@ -375,7 +384,13 @@ footer {
     flex-direction: column;
     gap: .4375rem; }
     .producto-final .img-producto-final {
-      width: 24.375rem; } }
+      width: 24.375rem; }
+  .flecha-productos-prev {
+    width: 30px;
+    height: 30px; }
+  .flecha-productos-next {
+    width: 30px;
+    height: 30px; } }
 
 @media (max-width: 768px) {
   header nav .contenedor-nav .contenedor-buscador .form-buscador .search-buscador {
