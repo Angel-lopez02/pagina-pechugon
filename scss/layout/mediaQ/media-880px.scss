@@ -21,13 +21,14 @@
                 }
             }
         }
-
-        .section-nosotros {
-            width: 26.5837rem;
-
-            h2 {
-                align-self: center;
+        .section-encontranos{
+            width: 97%;
+            .img-encontranos{
+                width: 100%
             }
+        }
+        .section-nosotros {
+            width: 97%;
         }
     }
 

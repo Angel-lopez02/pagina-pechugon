@@ -375,10 +375,12 @@ footer {
     main .section-pagos .pagos h3 {
       width: 60px;
       font-size: 13px; }
+  main .section-encontranos {
+    width: 97%; }
+    main .section-encontranos .img-encontranos {
+      width: 100%; }
   main .section-nosotros {
-    width: 26.5837rem; }
-    main .section-nosotros h2 {
-      align-self: center; }
+    width: 97%; }
   .producto-final {
     display: flex;
     flex-direction: column;
@@ -449,8 +451,6 @@ footer {
     main .section-productos .contenedor-cards .producto button {
       font-size: 10px;
       padding: 5px; }
-  main .section-nosotros {
-    width: 19.625rem; }
   .carrito .bolsa-compras {
     width: 300px; }
     .carrito .bolsa-compras .cont-empeza-bolsa {
