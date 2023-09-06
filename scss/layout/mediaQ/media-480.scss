@@ -35,12 +35,35 @@
     }
 
     main {
+        .contenedor-oferta {
+            display: none;
+        }
+
+        .contenedor-oferta-mobile {
+            display: flex;
+            width: 420px;
+
+            div {
+                div {
+                    .carousel-item {
+                        img {
+                            max-height: 440px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
         .section-pagos {
             display: none;
         }
 
         .section-productos {
             width: 19.625rem;
+            h2{
+                font-size: 25px;
+            }
             .contenedor-cards {
                 .producto {
                     img {
@@ -67,46 +90,61 @@
     .carrito {
         .bolsa-compras {
             width: 300px;
+
             .cont-empeza-bolsa {
                 font-size: 15px;
-    
+
             }
         }
     }
-.main-form{
-    .section-form{
-        .contenedor-form {
-            width: 18.625rem;
+
+    .main-form {
+        .section-form {
+            .contenedor-form {
+                width: 18.625rem;
+            }
         }
     }
-}
-.producto-final{
-    .img-producto-final {
-        width: 18.4375rem;
-    }
-    .info-producto {
-        width: 18.4375rem;
-        .name-producto-final {
-            font-size: 22px;
+
+    .producto-final {
+        .img-producto-final {
+            width: 18.4375rem;
         }
-        .cont-encontranos {
-            .ancla-encontranos{
-                h3 {
-                    font-size: 22px;
-            
+
+        .info-producto {
+            width: 18.4375rem;
+
+            .name-producto-final {
+                font-size: 22px;
+            }
+
+            .cont-encontranos {
+                .ancla-encontranos {
+                    h3 {
+                        font-size: 22px;
+
+                    }
                 }
             }
         }
     }
-}
-    footer{
-        .contenedor-footer{
-            .copyright{
+
+    footer {
+        .contenedor-footer {
+            .copyright {
                 .br-copy {
                     display: flex;
                 }
             }
         }
     }
-    
+
+}
+
+@media (max-width: 420px) {
+    main {
+        .contenedor-oferta-mobile {
+            width: 100%;
+        }
+    }
 }

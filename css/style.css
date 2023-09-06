@@ -60,6 +60,8 @@ main {
   gap: 1.25rem;
   background-color: #D9D9D9;
   padding-bottom: 6.25rem; }
+  main .contenedor-oferta-mobile {
+    display: none; }
   main .section-pagos {
     display: flex;
     justify-content: space-between;
@@ -411,10 +413,20 @@ footer {
     display: none; }
   header nav .contenedor-nav .navbar-mio ul .nav-item .dropdown-menu li a {
     font-size: 9px; }
+  main .contenedor-oferta {
+    display: none; }
+  main .contenedor-oferta-mobile {
+    display: flex;
+    width: 420px; }
+    main .contenedor-oferta-mobile div div .carousel-item img {
+      max-height: 440px;
+      width: 100%; }
   main .section-pagos {
     display: none; }
   main .section-productos {
     width: 19.625rem; }
+    main .section-productos h2 {
+      font-size: 25px; }
     main .section-productos .contenedor-cards .producto img {
       width: 8.4375rem; }
     main .section-productos .contenedor-cards .producto h3 {
@@ -440,3 +452,7 @@ footer {
       font-size: 22px; }
   footer .contenedor-footer .copyright .br-copy {
     display: flex; } }
+
+@media (max-width: 420px) {
+  main .contenedor-oferta-mobile {
+    width: 100%; } }

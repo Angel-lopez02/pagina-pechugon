@@ -4,7 +4,9 @@ main {
     gap: 1.25rem;
     background-color: $color-background-main;
     padding-bottom: 6.25rem;
-
+    .contenedor-oferta-mobile{
+        display: none;
+    }
     .section-pagos {
         display: flex;
         justify-content: space-between;
