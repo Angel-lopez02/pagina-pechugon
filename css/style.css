@@ -324,6 +324,39 @@ footer {
           font-size: 20px;
           color: #CF0A0A; }
 
+.main-404 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 3.125rem 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: none; }
+  .main-404 .contenedor-404 {
+    display: flex;
+    justify-content: center;
+    grid-column: 2; }
+    .main-404 .contenedor-404 p {
+      font-size: 120px;
+      color: #CF0A0A; }
+    .main-404 .contenedor-404 img {
+      width: 95px;
+      height: 124px;
+      align-self: center; }
+  .main-404 button {
+    grid-column: 2;
+    background-color: #CF0A0A;
+    padding: 10px;
+    border-radius: 10px; }
+    .main-404 button a {
+      color: white;
+      text-decoration: none; }
+  .main-404 p {
+    grid-column: 2; }
+  .main-404 img {
+    grid-column: 3;
+    grid-row: 2; }
+
 @media (max-width: 1180px) {
   .navbar > .container,
   .navbar > .container-fluid,

@@ -1,0 +1,40 @@
+.main-404{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr 3.125rem 1fr;
+justify-content: center;
+align-items: center;
+padding-top: 100px;
+gap: none;
+.contenedor-404{
+    display: flex;
+    justify-content: center;
+    grid-column: 2;
+
+    p{
+        font-size: 120px;
+        color: $color-tipografias-rojas
+    }
+    img{
+        @include sizes(95px, 124px);
+        align-self: center;
+    }
+}
+button{
+    grid-column: 2;
+    background-color:$color-tipografias-rojas ;
+    padding: 10px;
+    border-radius: 10px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+p{
+    grid-column: 2;
+}
+img{
+    grid-column: 3;
+    grid-row: 2;
+}
+}
