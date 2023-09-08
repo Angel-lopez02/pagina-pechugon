@@ -81,6 +81,11 @@ main {
         font-size: 20px; }
   main .section-productos {
     width: 53.1681rem; }
+    main .section-productos div .carrusel-control-producto {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 47.3%; }
     main .section-productos .contenedor-cards {
       display: grid;
       grid-template-columns: repeat(4, 1fr); }
