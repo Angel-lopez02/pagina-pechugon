@@ -414,6 +414,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    main .section-productos div .carrusel-control-producto {
+      top: 46.7%; }
     main .section-productos .contenedor-cards {
       grid-template: repeat(2, 1fr)/repeat(2, 1fr); }
   main .section-pagos {
