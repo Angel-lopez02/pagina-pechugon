@@ -111,6 +111,8 @@ main {
           background-color: #CF0A0A;
           font-family: black-italic;
           border-radius: .3125rem; }
+          main .section-productos .contenedor-cards .producto button a {
+            color: #FFFFFF; }
         main .section-productos .contenedor-cards .producto button:hover {
           background-color: #b90b0b; }
   main .section-nosotros {
@@ -359,6 +361,8 @@ footer {
     top: 90%;
     padding: 1.25rem;
     border-radius: 9px; }
+    header nav .contenedor-nav .navbar-mio ul .inicio-a {
+      display: none; }
     header nav .contenedor-nav .navbar-mio ul .nav-item .nav-link-home {
       display: flex; } }
 

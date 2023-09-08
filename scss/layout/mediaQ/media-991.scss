@@ -21,6 +21,9 @@
                     padding: 1.25rem;
                     border-radius: 9px;
                     ul{
+                        .inicio-a{
+                            display: none;
+                        }
                         .nav-item{
                             .nav-link-home {
                                 display: flex;

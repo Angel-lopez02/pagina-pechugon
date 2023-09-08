@@ -64,6 +64,9 @@ main {
                     background-color: $color-button;
                     font-family: black-italic;
                     border-radius: .3125rem;
+                    a{
+                        color: #FFFFFF;
+                    }
                 }
 
                 button:hover {
