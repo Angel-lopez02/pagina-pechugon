@@ -463,7 +463,9 @@ footer {
       .main-form .section-form .contenedor-form .form-ingresa-registrate div .input-form {
         width: 16.25rem; }
   .main-form .section-form .contenedor-form-ingresa {
-    height: 31.25rem; } }
+    height: 31.25rem; }
+  .main-404 img {
+    display: none; } }
 
 @media (max-width: 480px) {
   .navbar > .container,
