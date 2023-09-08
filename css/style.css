@@ -373,8 +373,7 @@ footer {
   main .section-productos div .carrusel-control-producto {
     width: 50px;
     height: 50px;
-    position: absolute;
-    top: 46.6%; } }
+    position: absolute; } }
 
 @media (max-width: 880px) {
   main .section-productos {
