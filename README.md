@@ -5,8 +5,8 @@
 
 ##### Gracias por Elegir Pechugon
 Agradecemos que hayas decidido confiar en nosotros para satisfacer tus necesidades de productos para el hogar, incluyendo productos comestibles. Explora nuestra plataforma, descubre productos emocionantes y realiza tus compras de manera sencilla. ¡Esperamos que tu experiencia en Pechugon sea excelente!
-##### Pre entregra - 3
-Todo el proyecto esta escrito con scss el cual tiene 6 layout y mediaQ que contienen 2 mixin, 7 variables y un extend que se encuentra en el layout main-index y el selector .item-galeria:nth-child(3), el sitioweb completo es resposive es decir que se adpta a todos los dispositivos, muchas gracias por tu tiempo lucas.
+##### Proyecto-Final
+Todo el proyecto esta escrito con scss el cual tiene 6 layout y mediaQ que contienen 2 mixin, 7 variables y un extend que se encuentra en el layout main-index y el selector .item-galeria:nth-child(3), el sitioweb completo es resposive es decir que se adpta a todos los dispositivos, muchas gracias por tu tiempo lucas o maxi.
 
 Atentamente:
 Angel Lopez
