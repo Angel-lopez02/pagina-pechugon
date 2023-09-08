@@ -85,7 +85,7 @@ main {
       width: 50px;
       height: 50px;
       position: absolute;
-      top: 47.3%; }
+      top: 51.4%; }
     main .section-productos .contenedor-cards {
       display: grid;
       grid-template-columns: repeat(4, 1fr); }
@@ -155,14 +155,14 @@ main {
   width: 2.5rem;
   height: 2.5rem;
   color: #CF0A0A;
-  left: 10px; }
+  left: 0px; }
 
 .flecha-productos-next {
   position: absolute;
   width: 2.5rem;
   height: 2.5rem;
   color: #CF0A0A;
-  right: 10px; }
+  right: 0px; }
 
 footer {
   display: flex;
@@ -369,7 +369,12 @@ footer {
     header nav .contenedor-nav .navbar-mio ul .inicio-a {
       display: none; }
     header nav .contenedor-nav .navbar-mio ul .nav-item .nav-link-home {
-      display: flex; } }
+      display: flex; }
+  main .section-productos div .carrusel-control-producto {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 46.6%; } }
 
 @media (max-width: 880px) {
   main .section-productos {
