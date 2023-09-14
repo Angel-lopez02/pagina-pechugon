@@ -110,15 +110,14 @@ main {
         main .section-productos .contenedor-cards .producto p {
           font-size: 14px;
           color: #CF0A0A; }
-        main .section-productos .contenedor-cards .producto button {
+        main .section-productos .contenedor-cards .producto a button {
           padding: .5rem .75rem;
+          width: 100%;
           color: #FFFFFF;
           background-color: #CF0A0A;
           font-family: black-italic;
           border-radius: .3125rem; }
-          main .section-productos .contenedor-cards .producto button a {
-            color: #FFFFFF; }
-        main .section-productos .contenedor-cards .producto button:hover {
+        main .section-productos .contenedor-cards .producto a button:hover {
           background-color: #b90b0b; }
   main .section-nosotros {
     display: flex;

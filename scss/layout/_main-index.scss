@@ -4,9 +4,11 @@ main {
     gap: 1.25rem;
     background-color: $color-background-main;
     padding-bottom: 6.25rem;
-    .contenedor-oferta-mobile{
+
+    .contenedor-oferta-mobile {
         display: none;
     }
+
     .section-pagos {
         display: flex;
         justify-content: space-between;
@@ -27,6 +29,7 @@ main {
 
     .section-productos {
         width: 53.1681rem;
+
         div {
             .carrusel-control-producto {
                 width: 50px;
@@ -66,31 +69,36 @@ main {
                     color: $color-tipografias-rojas;
                 }
 
-                button {
-                    padding: .5rem .75rem;
-                    color: #FFFFFF;
-                    background-color: $color-button;
-                    font-family: black-italic;
-                    border-radius: .3125rem;
-                    a{
-                        color: #FFFFFF;
-                    }
-                }
+                a {
 
-                button:hover {
-                    background-color: $color-button-hover;
+                    button {
+                        padding: .5rem .75rem;
+                        width: 100%;
+                        color: #FFFFFF;
+                        background-color: $color-button;
+                        font-family: black-italic;
+                        border-radius: .3125rem;
+
+                    }
+
+                    button:hover {
+                        background-color: $color-button-hover;
+                    }
                 }
 
             }
         }
     }
+
     .section-nosotros {
         @include flex(column, center, center, none);
         width: 53.125rem;
+
         h2 {
             display: flex;
             align-self: flex-start;
         }
+
         .album-imagenes {
             display: grid;
             @include sizes(100%, 100%);
@@ -121,13 +129,15 @@ main {
     }
 
 }
-.flecha-productos-prev{
+
+.flecha-productos-prev {
     position: absolute;
     @include sizes (2.5rem, 2.5rem);
     color: $color-tipografias-rojas;
     left: 0px
 }
-.flecha-productos-next{
+
+.flecha-productos-next {
     position: absolute;
     @include sizes (2.5rem, 2.5rem);
     color: $color-tipografias-rojas;
