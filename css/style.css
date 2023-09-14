@@ -482,6 +482,8 @@ footer {
     display: none; }
   header nav .contenedor-nav .navbar-mio ul .nav-item .dropdown-menu li a {
     font-size: 9px; }
+  main .section-productos div .carrusel-control-producto {
+    top: 45.8%; }
   main .contenedor-oferta {
     display: none; }
   main .contenedor-oferta-mobile {

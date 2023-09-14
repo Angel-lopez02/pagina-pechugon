@@ -35,6 +35,13 @@
     }
 
     main {
+        .section-productos {
+            div {
+                .carrusel-control-producto {
+                    top: 45.8%;
+                }
+            }
+        }
         .contenedor-oferta {
             display: none;
         }
