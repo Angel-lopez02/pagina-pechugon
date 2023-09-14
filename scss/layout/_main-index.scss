@@ -114,7 +114,13 @@ main {
                     @include sizes(100%, 100%);
                     object-fit: cover;
                 }
+                transition: 0.5s;
             }
+            .item-galeria:hover{
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+
 
             .item-galeria:nth-child(4) {
                 grid-row: 2/4;

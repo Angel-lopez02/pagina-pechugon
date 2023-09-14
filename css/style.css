@@ -139,10 +139,15 @@ main {
       box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.438);
       padding: 20px;
       border-radius: 10px; }
-      main .section-nosotros .album-imagenes .item-galeria .imagen-galeria {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; }
+      main .section-nosotros .album-imagenes .item-galeria {
+        transition: 0.5s; }
+        main .section-nosotros .album-imagenes .item-galeria .imagen-galeria {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      main .section-nosotros .album-imagenes .item-galeria:hover {
+        transform: scale(1.2);
+        cursor: pointer; }
       main .section-nosotros .album-imagenes .item-galeria:nth-child(4), main .section-nosotros .album-imagenes .item-galeria:nth-child(3) {
         grid-row: 2/4;
         grid-column: 2; }
